@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* White background */
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #6A0DAD; /* Purple background */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Main Content Section */
+main {
+    margin-top: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #6A0DAD; /* Purple heading color */
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #6A0DAD; /* Purple links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+/* Education Section */
+#education p {
+    font-size: 1rem;
+}
+
+#education a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #6A0DAD; /* Purple button */
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+#education a:hover {
+    background-color: #4B0082; /* Darker purple on hover */
+}
+
+/* Interests Section */
+#interests ul {
+    list-style-type: none;
+}
+
+#interests li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Projects Section */
+#projects .project {
+    background-color: #fff; /* White background for project boxes */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project h3 {
+    font-size: 1.5rem;
+    color: #6A0DAD; /* Purple text */
+}
+
+#projects .project p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Section */
+#contact form {
+    display: grid;
+    grid-gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact label {
+    font-size: 1rem;
+    color: #333;
+}
+
+#contact input, 
+#contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #6A0DAD; /* Purple button */
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #4B0082; /* Darker purple on hover */
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #666;
+}
